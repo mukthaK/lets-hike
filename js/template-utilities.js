@@ -23,7 +23,7 @@ function getWeatherDataTemplate(data) {
 function hikeTrailTemplate(trail, placename) {
 	return `
 		<div class="trail-data block">
-			<img src=${trail.imgSmall} alt="trail image" onerror="this.src='images/error-image.jpg';">
+			<img src=${trail.imgSmall} alt="trail image" onerror="this.src='images/error-image.jpg'; this.alt='trail image coming soon';">
 			<h3><a href=${trail.url} target="_blank">${trail.name}</a></h3>
 			<p>${trail.location}</p>
 			<p>Distance: ${trail.length} mi</p>

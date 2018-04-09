@@ -105,6 +105,10 @@ button{
     p{
         font-size: 18px;
     }   
+    .left, 
+	.right {
+    width: 100%;
+}
 }
 .weather-result p{
 	font-size: 17px;
