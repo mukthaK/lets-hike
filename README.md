@@ -31,7 +31,7 @@ https://mukthak.github.io/lets-hike/
 
 ### Screenshots
 Home page
-![Home page](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/home-page.png)
+![Home page](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/Landing-page.png)
 
 Searching city
 ![Searching city](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/city-search.png)
@@ -40,7 +40,7 @@ Weather result
 ![Weather result](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/weather-result.png)
 
 Hiking trails result
-![Hiking trails result](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/hiking-trails-result.png)
+![Hiking trails result](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/Hiking-trails.png)
 
 ### Functionality
 The app's functionality includes:
