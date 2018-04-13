@@ -1,6 +1,19 @@
 # LET'S HIKE
 A responsive web application that allows users to search hiking trails nearby and displays current weather data for the location.
 
+### Screenshots
+Home page
+![Home page](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/landing-page.png)
+
+Searching city
+![Searching city](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/city-search.png)
+
+Weather result
+![Weather result](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/Weather-info.png)
+
+Hiking trails result
+![Hiking trails result](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/Hiking-trails.png)
+
 ### Introduction
 Let's hike web app helps users to find the hiking trails near a specified city and also shows the current weather data which helps to plan their hiking trip. 
 
@@ -28,19 +41,6 @@ Why is this app useful? This app helps users to find the hiking trails near them
 ### Working prototype
 You can access the working prototype of the app here:
 https://mukthak.github.io/lets-hike/
-
-### Screenshots
-Home page
-![Home page](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/Landing-page.png)
-
-Searching city
-![Searching city](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/city-search.png)
-
-Weather result
-![Weather result](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/weather-result.png)
-
-Hiking trails result
-![Hiking trails result](https://github.com/mukthaK/lets-hike/blob/master/images/screenshots/Hiking-trails.png)
 
 ### Functionality
 The app's functionality includes:
