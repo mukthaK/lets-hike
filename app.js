@@ -1,4 +1,4 @@
- /*** API URLS ***/
+/*** API URLS ***/
 const WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather?appid=ad19330a1a85eb38a78e85ceaba0c320';
 const HIKING_PROJECT_URL = 'https://www.hikingproject.com/data/get-trails?maxDistance=10&key=200239759-6ef441eb317cb8f0a1c5f5220bf0cbc2';
 
@@ -17,11 +17,7 @@ function getWeatherData() {
 	    type: 'GET',
 	    success: displayWeather
   	};
-  	$.ajax(settings)
-  	.fail(function(){
-  		$('.weather-result').html("");
-  		$('.hike-result').html(`<h2 class="error-msg"> Please enter a valid city name</h2>`);
-  	});
+  	$.ajax(settings);
 };
 
 /*** Display weather data ***/

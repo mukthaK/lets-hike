@@ -34,6 +34,12 @@ p{
 .quote{
     padding-top: 70px;
 }
+h4{
+    text-align: center;
+    Font-Family: 'Monda', Sans-Serif;
+    color: #3c291d;
+    padding-top: 10px;
+}
 /**** Input form style ****/
 .search-form{
     padding: 20px;
@@ -164,6 +170,7 @@ a:hover{
 	font-size:18px;
 }
 .error-msg{
+	margin-top: 20px;
     padding-bottom: 50px;
     font-size: 30px;
 }
