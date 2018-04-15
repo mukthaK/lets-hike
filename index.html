@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>LET'S HIKE</title>
 	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
 	<link rel="stylesheet" href="style.css" type="text/css">
@@ -14,18 +14,17 @@
 		<h4>Find a hike near you!</h4>
 		<p class="quote">&ldquo;In every walk with nature one receives far more than he seeks.&rdquo;</p>
 		<p>&hyphen; John Muir</p>        
-        <legend>
-			<form action="#" class="search-form">
-				<label for="city-name"></label>
-				<input type="text" name="city-name" placeholder="Enter a city" id="city-name" aria-label="input city name" autofocus required>
-				<button type="submit" aria-label="search" class="submit-button">Explore</button>
-			</form>
+		<legend>
+		<form action="#" class="search-form">
+			<label for="city-name"></label>
+			<input type="text" name="city-name" placeholder="Enter a city" id="city-name" aria-label="input city name" autofocus required>
+			<button type="submit" aria-label="search" class="submit-button">Explore</button>
+		</form>
 		</legend>
 	</header>        
 	<main role="main">
-        <div class="weather-result" id="weather-display"></div>
-        <div class="hike-result container">
-        </div>
+		<div class="weather-result" id="weather-display"></div>
+		<div class="hike-result container"></div>
 	</main>
 	<footer role="contentinfo">
 		<a href="https://github.com/mukthaK" target="_blank"><img src="images/github-icon.png" alt="github icon"></a>&nbsp;
@@ -36,9 +35,8 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" 
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
       crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/template-utilities.js"></script>
+    	<script type="text/javascript" src="js/app.js"></script>
+    	<script type="text/javascript" src="js/template-utilities.js"></script>
   	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi7bhHvyXI8nzfhR70rHw6kV-7Z9zrMS0&libraries=places&callback=autocompleteSearchText"></script>
-   
 </body>
 </html>
